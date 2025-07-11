@@ -1,0 +1,133 @@
+<?php
+echo "hello"
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         body{
+            background-color:white;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            
+            
+
+    
+        }
+        #heading{
+            background-color: palegreen;
+            position: fixed; 
+            width: 100%;
+            top: 0;
+            display: flex;
+            gap: 40rem;
+            padding-left: 2rem;
+            
+            
+            
+        }
+        form{
+        
+        
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            width: 50%;
+        }
+        input{
+            height: 2rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        #top-nav{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+
+        }
+        nav{
+            display: flex;
+            gap: 3rem;
+            font-size: larger;
+        }
+        #age_sex{
+            display:flex;
+            gap: 4rem;
+
+        }
+        #Weight_height{
+            display:flex;
+            gap: 4rem;
+        }
+        #section{
+           text-align: center;
+           align-items: center;
+           align-content: center;
+           padding-left: 30%;
+           padding-top: 10rem;
+           
+             
+
+        }
+        #parts{
+            background-color: rgb(219, 214, 214);
+            padding: 2rem;
+            margin-bottom: 1rem;
+            width: 100%;
+            margin-right: 2rem;
+            border-radius: 8px;
+            
+            
+        }
+        #Relationship_PhoneNumber{
+            display: flex;
+            gap: 4rem;
+        
+        }
+    
+
+
+
+        </style>
+        <title>register patients</title>
+        
+    </head>
+        <body>
+            <div id="heading">
+               <div id="logo">
+                 <h1><b>DRS</b>
+               </div>
+               <div id="top-nav">
+                 
+               </div>
+
+            </div>
+
+        
+        <div id="section">
+        <form action="./includes/login.inc.php" method="post">
+        
+
+            <div id="parts">
+                <h2 style="text-align: center;">Sign In</h2>
+    
+            
+           <input type="text" placeholder="username" name="username"><br>
+           <input type="text" placeholder="password" name="pwd"><br>
+          
+           
+           <button type="submit" >login</button>
+            <nav>
+                <a href="signup.html">register here!..</a>
+            </nav>
+
+            </div>
+        
+        
+        </form>
+        </div>
+</body>
+</html>
